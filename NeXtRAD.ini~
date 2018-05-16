@@ -12,17 +12,17 @@ SECOND = 37
 
 [GeometrySettings]
 
-; heights are WGS84 and above geoid
 ; lats and longs are in decimal degrees
-NODE0_LOCATION_LAT = -34.1926
-NODE0_LOCATION_LON = 18.4456
-NODE0_LOCATION_HT = 54.95
-NODE1_LOCATION_LAT = -33.9585
-NODE1_LOCATION_LON = 18.4599
-NODE1_LOCATION_HT = 172.32
-NODE2_LOCATION_LAT = -34.1926
-NODE2_LOCATION_LON = 18.4456
-NODE2_LOCATION_HT = 49.72
+; height is in meters as WGS84 and above geoid
+NODE0_LOCATION_LAT = -34.1891
+NODE0_LOCATION_LON = 18.3665
+NODE0_LOCATION_HT = 52.76
+NODE1_LOCATION_LAT = -3.1891
+NODE1_LOCATION_LON = 18.3665
+NODE1_LOCATION_HT = 52.76
+NODE2_LOCATION_LAT = -34.1891
+NODE2_LOCATION_LON = 18.3665
+NODE2_LOCATION_HT = 52.76
 
 
 [TargetSettings]
@@ -37,10 +37,8 @@ TGT_LOCATION_HT = 0.00
 [Bearings]
 
 ; DTG is date-time (in date-time group format) of getting bearings. EXAMPLE: 091630Z JUL 11 = 1630 UTC on 9 July 2011
-; Baseline_Bisector and node ranges are in meters
 ; Node bearings are in degrees relative to true north
 DTG = 061855Z 1217
-BASELINE_BISECTOR = 
 NODE0_RANGE = 1.82952
 NODE0_BEARING = 46.5192
 NODE1_RANGE = 1.82952
